@@ -32,6 +32,8 @@ gem 'devise'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 
+gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
+
 group :production do
   gem 'pg'
   gem 'rails_12factor'
